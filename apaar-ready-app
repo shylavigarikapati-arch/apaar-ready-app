@@ -1,0 +1,18 @@
+apaar-ready-app/
+├── .github/workflows/build-apk.yml
+├── settings.gradle.kts
+├── build.gradle.kts
+├── gradle/
+│   └── libs.versions.toml
+└── app/
+    ├── build.gradle.kts
+    └── src/main/
+        ├── AndroidManifest.xml
+        └── java/com/apaar/ready/
+            ├── MainActivity.kt
+            ├── util/NetworkMonitor.kt
+            ├── ui/components/ApaarWebView.kt
+            ├── ui/components/ErrorOfflineView.kt
+            └── ui/screens/
+                ├── QuickNavScreen.kt
+                └── AboutDisclaimerScreen.kt
